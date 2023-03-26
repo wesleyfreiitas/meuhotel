@@ -1,0 +1,160 @@
+#Menulateral {
+    padding: 0px;
+    margin: 0px;
+    width: 175px;
+    height: 700px;
+}
+
+.col-2 {
+    padding: 0px;
+    margin: 0px;
+    width: 175px;
+    height: 700px;
+    flex: none;
+}
+
+.row {
+    margin: 0px;
+}
+
+.bg-dark {
+    background: #3e4e68;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 175px;
+}
+
+ul li {
+    position: relative;
+}
+
+/*ul li:hover {
+    /*bg dark 343a40
+    coutra cor 3e4e68*/
+    /*background: #3e4e68;
+    border: 1px solid #3e4e68;
+    font-weight: 900;
+    letter-spacing: 1px;
+    transition: all 150ms linear;
+    transition-property: all;
+    transition-duration: 150ms;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+
+}*/
+#mostrar{
+    display:none;
+}
+
+li ul {
+    position: absolute;
+    left: 149px;
+    top: 0;
+    display: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: grey;
+
+}
+
+h5 span svg {
+    width: 30px;
+    height: 30px;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    color: white;
+
+}
+
+ul li span {
+    text-decoration: none;
+    color: grey;
+}
+
+.btn-warning {
+    color: white;
+    background-color: #FFA500;
+    border-color: #FFA500;
+}
+
+.btn-warning:hover {
+    color: white;
+    background-color: #FF8C00;
+    border-color: #FF8C00;
+}
+
+/*Estido do botão on/off*/
+.switch {
+    position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;
+}
+
+.switch + label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+}
+
+.switch--shadow + label {
+    padding: 2px;
+    width: 120px;
+    height: 60px;
+    background-color: #dddddd;
+    border-radius: 60px;
+}
+
+
+.switch--shadow + label:before,
+.switch--shadow + label:after {
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    content: '';
+}
+
+.switch--shadow + label:before {
+    right: 1px;
+    background-color: #f1f1f1;
+    border-radius: 60px;
+    transition: all 0.4s;
+}
+
+.switch--shadow + label:after {
+    width: 62px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s;
+}
+
+.switch--shadow:checked + label:before {
+    background-color: #8ce196;
+}
+
+.switch--shadow:checked + label:after {
+    transform: translateX(60px);
+}
+.navbarSupportedContent .active{
+    background: #3e4e68;
+    border: 1px solid #3e4e68;
+    font-weight: 900;
+    letter-spacing: 1px;
+    transition: all 150ms linear;
+    transition-property: all;
+    transition-duration: 150ms;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
